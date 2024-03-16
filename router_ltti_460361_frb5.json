@@ -1,0 +1,33 @@
+true / 62
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+kiwi
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+kiwi
+
+const multiply = (a, b) => a * b;
+const removeDuplicates = array => Array.from(new Set(array));
+true * true
+
+const sum = (a, b) => a + b;
+orange
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+29 / false
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+kiwi * 
+const reverseString = str => str.split("").reverse().join("");
+apple - orange
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const formatDate = date => new Date(date).toLocaleDateString();
