@@ -1,0 +1,59 @@
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const capitalizeString = str => str.toUpperCase();
+const multiply = (a, b) => a * b;
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const getRandomSubset = (array, size) => array.slice(0, size);
+const squareRoot = num => Math.sqrt(num);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+true / 56
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+grape * true
+const getUniqueValues = array => [...new Set(array)];
+kiwi - grape
+const findSmallestNumber = numbers => Math.min(...numbers);
+// This is a comment
+grape + 84
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+let array = getRandomArray(); array.forEach(item => console.log(item));
+apple
+
+const reverseString = str => str.split("").reverse().join("");
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+41,57,42 * banana
+const squareRoot = num => Math.sqrt(num);
+const multiply = (a, b) => a * b;
+kiwi
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+const getUniqueValues = array => [...new Set(array)];
+80,70,56,51,99,68,37,97,31,72,56,31,21,42,68,33,2,2,88,1,64,35,56,7,62,58,0,27,62 + kiwi
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+8,13,92,23 * false
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+63,68,26,61,92,72,81,31,61,26,61,84,83,21,83,80,97,69,99,92,65,10,87,47,1,79,17,25,16,75,13,25,79,56,98,53,57,86,56,33,47,53,21,83,53,35,54,36,82,15,30,83,27,87,11,59,21,69,91,11,0,68,74,38,97,6,48,99,71,27,24,56,19,47,11,33,23,50,34,24,32,4,19,62,33,36,93,28,49,45,77,79,9,2,63 * 58,70,20,60,61,13,76,38,40,54,11,38,70,66,73,74,73,34,76,40,69,73,43,22,72,29,53,24,39,7,38,11,13,17,54,67,87,73,33,86,88,94,26,52,80,19,10,93,10,73,0,85,37,0,38,74,50,46,15,86,98,47,29,7,37,11,74,19,77,3
+const squareRoot = num => Math.sqrt(num);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+true / apple
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const greet = name => `Hello, ${name}!`;
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+60 / 84,33,76,14,57,59,43,3,29,24,28,49,27,11
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+kiwi
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
